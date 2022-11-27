@@ -1,0 +1,542 @@
+/* universal styles*/
+html {
+    background-color: #BF9765;
+
+
+}
+
+
+#body-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+
+}
+
+#body-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+#body-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+}
+
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #45858C;
+}
+
+
+#home {
+    color: #BF9765;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Abril Fatface';
+    background-color: black;
+    padding: 25px;
+    border: black;
+    border-radius: 2em;
+    margin-top: 15px;
+}
+
+#about {
+    color: #BF9765;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Abril Fatface';
+    background-color: black;
+    padding: 25px;
+    border: black;
+    border-radius: 2em;
+    margin-top: 15px;
+
+}
+
+#contact {
+    color: #BF9765;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Abril Fatface';
+    background-color: black;
+    padding: 25px;
+    border: black;
+    border-radius: 2em;
+    margin-top: 15px;
+
+}
+
+#home:hover {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    color: #D9C589;
+}
+
+#about:hover {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    color: #D9C589;
+}
+
+#contact:hover {
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    color: #D9C589;
+}
+
+/* home page styles */
+#h1 {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    background-color: #BF9765;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://imgs.search.brave.com/yaIk_VmB8RG2tlFLYX6R0ivkzCwluyfOZ94MGcVrOBE/rs:fit:1200:1080:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsL2QvNS8yLzE1/MDYyLmpwZw");
+    height: 33em;
+    padding-top: 2em;
+    width: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+
+
+
+
+}
+
+#learn {
+    display: flex;
+    background-color: #BF9765;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+#student {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #45858C;
+}
+
+#home-section-h2 {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home-section-p {
+    display: flex;
+    background-color: #BF9765;
+    padding-bottom: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: 1.3em;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    line-height: 1.5em;
+}
+
+#home-footer-p {
+    font-size: 1.5em;
+    color: black;
+}
+
+/*about page styling*/
+#h1-about {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    background-color: #BF9765;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-traits {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-section-1-p {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 4em;
+    padding-left: 4em;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+#about-available {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    justify-content: center;
+    padding-bottom: 6.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #D9C589;
+}
+
+
+#hobbies-header {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 2em;
+    padding-left: 10em;
+    font-size: 1.5em;
+    line-height: 1.5;
+
+}
+
+#hobbies {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 4em;
+    padding-left: 0em;
+    font-size: 1em;
+    line-height: 1.5;
+    flex-direction: column;
+    align-items: flex-start;
+    color: darkred;
+    padding-top: 8em;
+
+
+}
+
+#love {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 4em;
+    padding-left: 4em;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+#hobbies-header2 {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#footer-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #45858C;
+    font-size: 1.5em;
+}
+
+#skills {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-right: 8em;
+    padding-left: 8em;
+    font-size: 1.5em;
+    line-height: 1.5;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#tech {
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*contact css*/
+
+#body-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+
+
+}
+
+
+#contact-header {
+    width: 100%;
+    margin-right: 1em
+}
+
+#contact-h1 {
+    padding-top: 1em;
+    width: 100%;
+    padding-bottom: 0em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    background-color: #BF9765;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-h2 {
+    display: flex;
+    background-color: #BF9765;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-from {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#get-back {
+    background-color: #BF9765;
+    padding-bottom: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: 1.5em;
+    line-height: 1.5;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+#contact-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3em;
+    padding-top: 4.2em;
+    padding-bottom: 4.2em;
+    background-color: #D9C589;
+    width: 100%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+label {
+    font-size: 1.5em;
+}
+
+select {
+    background-color: #D9C589;
+    border: #D9C589;
+    border-radius: 1em;
+    padding: 6px;
+}
+
+input {
+    background-color: #D9C589;
+    border: #D9C589;
+    border-radius: 1em;
+    padding: 6px
+}
+
+legend {
+    font-size: 2em;
+    padding: 10px;
+}
+
+textarea {
+    background-color: #D9C589;
+    border: #D9C589;
+    border-radius: 1em;
+    padding: 6px
+}
+
+#please {
+    font-size: 2em;
+}
+
+#submit {
+    font-size: 2em;
+    padding: 15px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#submit:hover {
+    width: 35%;
+    background-color: #45858C;
+}
+
+#footer-div {
+    display: flex;
+
+}
+
+#contact-me-direct {
+    padding-right: 2em;
+}
+
+#contact-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #45858C;
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+
+/*thanks page css*/
+#thanks-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+#p-thanks {
+    display: flex;
+    background-color: #BF9765;
+    padding-bottom: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: 1.3em;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    line-height: 1.5em;
+}
+
+#thanks-h2 {
+    display: flex;
+    background-color: #BF9765;
+    padding-bottom: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: 1.3em;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
